@@ -34,7 +34,7 @@
     "Major-mode for rails console REPL.")
 
 ;;;###autoload
-(defun rails-console-repl-hoge ()
+(defun rails-console-repl-run ()
     (interactive)
     (let ((buf-name "rails-console-repl")
              (my-directory (read-directory-name "DIRECTORY: ")))
